@@ -59,3 +59,11 @@ En mi caso, los valores son:
 
 En mi caso, consigo esto:
 ![alt text](image-1.png)
+
+### Crear commits en repositorio
+
+Una vez hemos iniciado un repositorio, hacemos cualquier cambio y lo añadimos a staging con VS Code y `Confirmar`.
+
+Vemos los cambios que hemos hecho con `git log`:
+
+![alt text](image-2.png)
