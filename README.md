@@ -43,3 +43,19 @@ O miramos los valores por separado:
 En mi caso, los valores son:
 
 ![alt text](image.png)
+
+## Carpeta de trabajo
+
+```
+  mkdir myproject
+  cd myproject
+```
+
+## Inicializar un repositorio
+
+```
+  git init
+```
+
+En mi caso, consigo esto:
+![alt text](image-1.png)
