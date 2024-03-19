@@ -40,3 +40,6 @@ O miramos los valores por separado:
   git config user.name
   git config user.email
 ```
+En mi caso, los valores son:
+
+![alt text](image.png)
