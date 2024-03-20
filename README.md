@@ -91,3 +91,4 @@ Lista de cosas a comprobar hasta este punto:
 ```
   git log
 ```
+## OK --- Jordi
