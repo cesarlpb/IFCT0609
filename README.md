@@ -91,3 +91,8 @@ Lista de cosas a comprobar hasta este punto:
 ```
   git log
 ```
+
+## Git Branch
+
+Ejemplo de trabajo con ramas en Git:
+![Diagrama 03](./Diagrama03.png "Git branch")
