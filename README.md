@@ -67,3 +67,27 @@ Una vez hemos iniciado un repositorio, hacemos cualquier cambio y lo añadimos a
 Vemos los cambios que hemos hecho con `git log`:
 
 ![alt text](image-2.png)
+
+## Repaso
+
+Lista de cosas a comprobar hasta este punto:
+
+- [ ] Instalar Git y VS Code
+
+**Nota:** Si estáis en Windows, fijaros que usais **CMD** o **Símbolo del sistema** como terminal. ❌ No uséis Powershell.
+
+- [ ] Comprobar que funciona comando `git`
+  - [ ] Comprobar version: `git --version` 
+
+- [ ] Probar a clonar este repositorio con:
+```
+  git clone https://github.com/cesarlpb/IFCT0609.git
+```
+- [ ] Abrir la carpeta:
+```
+  cd IFCT0609
+```
+- [ ] Vemos el log:
+```
+  git log
+```
