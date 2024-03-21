@@ -96,3 +96,12 @@ Lista de cosas a comprobar hasta este punto:
 
 Ejemplo de trabajo con ramas en Git:
 ![Diagrama 03](./Diagrama03.png "Git branch")
+
+Ejemplo de branch `nueva-rama`:
+
+![Diagrama 03](./Diagrama_branch.png "Git branch")
+
+## Git merge
+Ejemplo de merge de la rama `nueva-rama` hacia la rama `main`:
+
+![Diagrama 03](./Diagrama_merge.png "Git branch")
