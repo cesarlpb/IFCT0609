@@ -1,0 +1,13 @@
+# Este archivo tiene contraseñas:
+secret.txt
+# Este archivo está en una carpeta:
+secret/top_secret.txt
+top_secret.txt
+# Ignorar carpeta entera (todos los archivos):
+carpeta_a_ignorar/
+carpeta_a_ignorar/*
+# Ignorar un tipo de archivo, en este caso, pdf:
+*.pdf
+# Ignoramos archivos que tengan una estructura en el nombre:
+# ignorar_
+ignorar_esto*
