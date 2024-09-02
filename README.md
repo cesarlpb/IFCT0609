@@ -1,107 +1,92 @@
-# IFCT0609
-Repositorio de la formación IFCT0609
+# Proyecto Final del curso
+  - Proyecto final de código
+  - CV y Linkedin
+  - Búsqueda activa de empleo
 
-- Tutorial de Git en W3Schools: https://www.w3schools.com/git/default.asp
+### Semana 1: Enfoque en el Proyecto Final
 
-## Diagramas
+#### Día 1-2: Definición del Proyecto
+1. **Requisitos y objetivos:** Los alumnos deben definir claramente el proyecto que quieren desarrollar. Puede ser una aplicación web utilizando Django que resuelva un problema real o simulado. Deben incluir:
+   - Objetivo del proyecto: ¿qué problema resuelve?, ¿para qué sirve?
+   - Funcionalidades principales: ¿qué puedes hacer con esta web / app?
+   - Público objetivo: ¿quién lo usaría?
 
-Explicación de Git:
-![Diagrama 01](./Diagrama01.png "Git")
+2. **Planificación y diseño:** 
+   - Crear un esquema de la arquitectura del proyecto -> Django...
+   - Diseñar las bases de datos necesarias -> SQLite con modelos de Django
+   - Establecer los endpoints de la API (si aplica).
+   - Definir el flujo de la aplicación: diagramas
 
-Explicación de Github:
-![Diagrama 02](./Diagrama02.png "Github")
+#### Día 3-5: Desarrollo del Proyecto
+1. **Configuración del entorno:** entorno de desarrollo correctamente configurado con Django, bases de datos y otras herramientas necesarias.
+2. **Desarrollo de funcionalidades principales:** Los estudiantes deben centrarse en desarrollar las funcionalidades clave del proyecto. Recomienda el uso de buenas prácticas de código:
+   - Utilización de Git para el control de versiones.
+   - Aplicar el principio DRY (Don't Repeat Yourself).
+   - Crear pruebas unitarias para componentes críticos.
 
-## Comandos de Git
+3. **Integración de funcionalidades y testing:** 
+   - Integrar las funcionalidades desarrolladas.
+   - Probar la aplicación en diferentes escenarios.
+   - Realizar correcciones de errores y optimizaciones necesarias.
 
-Configuración de usuario:
+#### Día 6-7: Revisión y Documentación
+1. **Revisión de código:** Fomentar revisiones entre pares para mejorar la calidad del código y fomentar la colaboración.
+2. **Documentación:** Documentar el código y crear un README claro y conciso para el repositorio del proyecto. Debe incluir:
+   - Descripción del proyecto.
+   - Instrucciones de instalación y uso.
+   - Tecnologías utilizadas.
+   - Créditos y contribuciones.
 
-Primero, comprobamos que nos funciona Git.
-```
-  git
-```
+### Semana 2: Enfoque en CV y Portafolio
 
-Configuramos el nombre de usuario:
-```
-  git config --global user.name "<Nombre Apellido>"
-```
+#### Día 1-2: Actualización del CV
+1. **Revisión del formato y contenido:** Asegúrate de que el CV esté actualizado con:
+   - Información personal y de contacto.
+   - Experiencia laboral (incluye proyectos de clase o personales relevantes).
+   - Educación y certificaciones.
+   - Habilidades técnicas (enfatiza en Django y tecnologías relacionadas).
+   - Resumen profesional atractivo.
+   - Mi CV de ejemplo: https://cesarlpb.github.io/cv?lang=es
+     - Código de mi CV: https://github.com/cesarlpb/cesarlpb.github.io/blob/master/cv.html
 
-Configuramos el correo electrónico:
-```
-  git config --global user.email "<email@dominio.com>"
-```
+2. **Personalización:** 
+   - Adaptar el CV según el tipo de empleo al que se aspira (desarrollador backend, fullstack, etc.).
+   - Incluir palabras clave relevantes para pasar filtros de ATS (Applicant Tracking Systems).
+   - Mi Linkedin: https://www.linkedin.com/in/cesarlpb89/
 
-Verificamos los valores:
-```
-  git config --list
-```
+#### Día 3-5: Creación del Portafolio Online
+1. **Selección de proyectos:** Incluir en el portafolio:
+   - El proyecto final desarrollado en la semana anterior.
+   - Otros proyectos relevantes que demuestren competencias clave.
+   - Mi portafolio: https://cesarlpb.github.io/
+     - Código de mi portafolio: https://github.com/cesarlpb/cesarlpb.github.io (index.html con Astro)
+     - Vídeo que lo explica: https://youtu.be/HEMvsJTBweY?si=zYQxOwj2D2WOTIyK
 
-O miramos los valores por separado:
-```
-  git config user.name
-  git config user.email
-```
-En mi caso, los valores son:
+2. **Plataformas de portafolio:**
+   - Crear una página web personal usando Django o herramientas como GitHub Pages, WordPress, etc.
+   - Asegurarse de que la navegación sea fácil y la presentación profesional.
+   - Github Pages es gratis
 
-![alt text](image.png)
+3. **Presentación:** 
+   - Escribir descripciones claras para cada proyecto.
+   - Incluir capturas de pantalla, enlaces a demos y repositorios de código.
 
-## Carpeta de trabajo
+#### Día 6-7: Estrategia de Búsqueda de Trabajo y Optimización
+1. **LinkedIn y redes profesionales:** 
+   - Actualizar LinkedIn con el nuevo CV, experiencia y proyectos.
+   - Optimizar el perfil con un resumen profesional que destaque habilidades clave.
+   - Mi Linkedin: https://www.linkedin.com/in/cesarlpb89/
 
-```
-  mkdir myproject
-  cd myproject
-```
+2. **Networking:**
+   - Animar a los estudiantes a conectar con profesionales de la industria, asistir a eventos virtuales y unirse a grupos de discusión.
 
-## Inicializar un repositorio
+3. **Simulación de entrevistas:**
+   - Realizar simulacros de entrevistas técnicas y de comportamiento.
+   - Prepararse para preguntas comunes y pruebas de código.
 
-```
-  git init
-```
+**Objetivo:** conseguir 10 llamadas o entrevistas con reclutadores 🚀
 
-En mi caso, consigo esto:
-![alt text](image-1.png)
-
-### Crear commits en repositorio
-
-Una vez hemos iniciado un repositorio, hacemos cualquier cambio y lo añadimos a staging con VS Code y `Confirmar`.
-
-Vemos los cambios que hemos hecho con `git log`:
-
-![alt text](image-2.png)
-
-## Repaso
-
-Lista de cosas a comprobar hasta este punto:
-
-- [ ] Instalar Git y VS Code
-
-**Nota:** Si estáis en Windows, fijaros que usais **CMD** o **Símbolo del sistema** como terminal. ❌ No uséis Powershell.
-
-- [ ] Comprobar que funciona comando `git`
-  - [ ] Comprobar version: `git --version` 
-
-- [ ] Probar a clonar este repositorio con:
-```
-  git clone https://github.com/cesarlpb/IFCT0609.git
-```
-- [ ] Abrir la carpeta:
-```
-  cd IFCT0609
-```
-- [ ] Vemos el log:
-```
-  git log
-```
-
-## Git Branch
-
-Ejemplo de trabajo con ramas en Git:
-![Diagrama 03](./Diagrama03.png "Git branch")
-
-Ejemplo de branch `nueva-rama`:
-
-![Diagrama 03](./Diagrama_branch.png "Git branch")
-
-## Git merge
-Ejemplo de merge de la rama `nueva-rama` hacia la rama `main`:
-
-![Diagrama 03](./Diagrama_merge.png "Git branch")
+### Consejos Finales:
+- **Gestión del tiempo:** Recordad la importancia de gestionar bien su tiempo, dedicando horas específicas a cada tarea sin procrastinar.
+- **Calidad sobre cantidad:** Es mejor que presenten menos pero bien hecho, que intentar abarcar demasiado y no lograrlo.
+- **Feedback constante:** Proporciona retroalimentación a lo largo del proceso para corregir errores y mejorar la calidad de los entregables.
